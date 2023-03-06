@@ -1,6 +1,13 @@
-# Java_based_chat_room
-A simple Java swing based multiple client chat system
+# Multithreaded chat systm
 
-Run the server code first and then the client code to connect with the server. 
-Initially the system is running on localhost. The application can be made available globally using any tcp forwaring software like ngrok.
-Leave a comment if found useful or need help with any issue
+## Description
+A simple Java swing based multiple threaded chat system. Requires the clients to be inside same network but can work for remote networks as well using IP forwarding tools such as Ngrok.
+
+## How to run the code?
+1. Run the **Server.java** file
+2. Run **client.java** for each client who wants to join the chat room
+
+## Output
+
+![chat demo](./output/chat.png "Example")
+
